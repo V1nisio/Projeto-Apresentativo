@@ -1,5 +1,5 @@
 ![Preview do Projeto](./assets/preview-project.png)
-![Preview do Proeto](.assets/preview-project1.png)
+![Preview do Projeto](.assets/preview-project1.png)
 # 💰 Conversor de Câmbio Fullstack (Python & Flask)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
