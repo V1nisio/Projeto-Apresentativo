@@ -1,4 +1,4 @@
-![Preview do Projeto](./assets/preview_project)
+![Preview do Projeto](./assets/preview-project.png)
 
 # 💰 Conversor de Câmbio Fullstack (Python & Flask)
 
