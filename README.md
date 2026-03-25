@@ -1,3 +1,5 @@
+![Preview do Projeto](./assets/<img width="1920" height="1080" alt="preview project" src="https://github.com/user-attachments/assets/7f9b42bd-1336-422c-871f-ccd32d8e59e9" />)
+
 # 💰 Conversor de Câmbio Fullstack (Python & Flask)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
