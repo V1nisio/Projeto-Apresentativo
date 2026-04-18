@@ -5,7 +5,7 @@ from analytics.grafic_preview import gerar_grafico_dinamico
 app = Flask(__name__)
 
 def pegar_cotacoes():
-    url = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,GBP-BRL"
+    url = "https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,GBP-BRL,BTC-BRL"
     try:
         response = requests.get(url)
         return response.json()
@@ -27,7 +27,8 @@ def index():
                 "original": valor_brl,
                 "usd": valor_brl / float(dados["USDBRL"]["bid"]),
                 "eur": valor_brl / float(dados["EURBRL"]["bid"]),
-                "gbp": valor_brl / float(dados["GBPBRL"]["bid"])
+                "gbp": valor_brl / float(dados["GBPBRL"]["bid"]),
+                "btc": valor_brl / float(dados["BTCBRL"]["bid"])
             }
 
         gerar_grafico_dinamico(moeda_escolhida)
